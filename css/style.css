@@ -1,0 +1,66 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Verdana', serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fc {
+    display: flex;
+    flex-direction: column;
+}
+
+.fr {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.header a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header a:visited{
+    color: #F9FAF8;
+}
+
+.showcase {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.content {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.signup {
+    
+}
+
+.footer {
+    background-color: #1F2937;
+}
