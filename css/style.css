@@ -39,7 +39,6 @@ body {
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
-
     padding: 20px 100px 20px 100px;
 }
 
@@ -73,24 +72,38 @@ body {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #E5E7EB;
+    padding: 20px 100px 20px 100px;
+}
+
+.quote blockquote{
+    font-size: 2em;
+}
+
+.quote figcaption{
+    text-align: right;
 }
 
 .signup {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 100px 20px 100px;
 }
 
 .footer {
-    color: #F9FAF8;
-    background-color: #1F2937;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 100px 20px 100px;
 }
 
-.button {
+.btn {
     background-color: #3882F6;
     /* Green */
     border: none;
