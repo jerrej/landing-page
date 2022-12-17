@@ -62,12 +62,13 @@ body {
 }
 
 .content-row {
-    display: flex
+    display: flex;
 }
 
 .content-box {
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
     border: 1px solid #000;
 }
 
@@ -79,11 +80,11 @@ body {
     padding: 20px 100px 20px 100px;
 }
 
-.quote blockquote{
+.quote blockquote {
     font-size: 2em;
 }
 
-.quote figcaption{
+.quote figcaption {
     text-align: right;
 }
 
@@ -105,7 +106,6 @@ body {
 
 .btn {
     background-color: #3882F6;
-    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
